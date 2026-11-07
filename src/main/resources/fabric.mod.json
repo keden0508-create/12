@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "armorhud",
+  "version": "${version}",
+  "name": "Armor HUD",
+  "description": "착용 중인 갑옷과 손에 든 아이템의 내구도를 HUD로 보여줍니다. Tab: 상세정보, V: HUD 숨김.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.armorhud.ArmorHudClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "fabric-api": ">=0.161.0",
+    "minecraft": "~26.3"
+  }
+}
